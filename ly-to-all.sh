@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Convert all LilyPond files to SVG, MIDI, WebM, and MusicXML.
+# Convert all LilyPond files in each directory to SVG, MIDI, WebM, and MusicXML.
 #
 # Prerequisites:
 #
