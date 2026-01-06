@@ -1,10 +1,5 @@
 \version "2.24.4"
 
-\paper {
-  indent = #0
-  line-width = #120
-}
-
 \header {
   title = "Row, Row, Row Your Boat"
 }
@@ -30,4 +25,9 @@
   \midi {
     \tempo 4. = 120
   }
+}
+
+\paper {
+  indent = #0
+  line-width = #120
 }

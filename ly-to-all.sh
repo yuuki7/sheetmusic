@@ -19,8 +19,8 @@ IFS=$'\n\t'
 
 SOUNDFONT='FluidR3_GM.sf2'
 
-for score in */*.ly; do
-  song="${score%.ly}"
+for file in */*.ly; do
+  song="${file%.ly}"
 
   # Convert LilyPond to SVG and MIDI
   lilypond --svg -dcrop -dmidi-extension=mid "$song.ly"
