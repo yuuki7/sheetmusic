@@ -1,3 +1,3 @@
-# Nursery rhymes in LilyPond, MusicXML, SVG, and MIDI
+# Nursery rhyme scores
 
 https://wikinder.org/LilyPond-nursery-rhymes
