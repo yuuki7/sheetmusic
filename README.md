@@ -1,3 +1,3 @@
-# yuuki's sheet music
+# Nursery rhymes
 
-https://wikinder.org/Music-notation-on-computers
+https://wikinder.org/LilyPond-nursery-rhymes
