@@ -5,7 +5,6 @@
 # Prerequisites:
 #
 # - lilypond 2.24.4
-# - librsvg 2.61.3
 # - fluidsynth 2.5.2
 # - FluidR3_GM.sf2
 # - ffmpeg 8.0.1
@@ -23,11 +22,10 @@ for file in */*.ly; do
   song="${file%.ly}"
 
   # Convert LilyPond to SVG and MIDI
-  lilypond --svg -dcrop -dmidi-extension=mid "$song.ly"
-  mv "$song.cropped.svg" "$song.svg"
+  lilypond --svg -dmidi-extension=mid "$song.ly"
 
   # Set SVG background to white
-  rsvg-convert -b white -f svg -o "$song.svg" "$song.svg"
+  ./svg-bg.py "$song.svg"
 
   # Convert MIDI to WAV
   fluidsynth -ni "$SOUNDFONT" "$song.mid" -F "$song.wav"
