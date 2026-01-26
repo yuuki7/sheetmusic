@@ -19,7 +19,3 @@ fluidsynth -ni "$soundfont" "$input.mid" -F "$input.wav"
 ffmpeg -y -f lavfi -i 'color=c=black:s=320x180' -i "$input.wav" -c:v libvpx-vp9 -c:a libopus -af 'silenceremove=stop_periods=1:stop_threshold=-50dB' -shortest -pix_fmt yuv420p "$input.webm"
 
 rm "$input.wav"
-
-# Convert LilyPond to MusicXML (extracting only the `\relative` block)
-python3 -c 'import re, sys; print(re.search(r"\\relative.*?{.*?}", open(sys.argv[1]).read(), re.DOTALL).group(0))' "$input.ly" \
-| ly musicxml -d 'backup-suffix=' -o "$input.musicxml"
