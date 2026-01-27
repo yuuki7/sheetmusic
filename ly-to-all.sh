@@ -1,21 +1,35 @@
-#!/bin/sh
-soundfont="$HOME/Library/Audio/Sounds/Banks/FluidR3_GM.sf2"
-input="${1%.ly}"
+#!/bin/bash
+#
+# Convert all LilyPond files to SVG, MIDI, WAV, and WebM
+#
 
 # Exit on error
-set -e
+set -xeuo pipefail
+IFS=$'\n\t'
 
-# Convert LilyPond to SVG and MIDI
-lilypond --svg -dcrop -dmidi-extension=mid "$input.ly"
-mv "$input.cropped.svg" "$input.svg"
+SOUNDFONT='FluidR3_GM.sf2'
 
-# Set the SVG background to white
-rsvg-convert -b white -f svg -o "$input.svg" "$input.svg"
+for ly_file in ${1:-*}/*.ly; do
+  # File path without extension
+  file="${ly_file%.ly}"
 
-# Convert MIDI to WAV
-fluidsynth -ni "$soundfont" "$input.mid" -F "$input.wav"
+  # Convert LilyPond to SVG and MIDI
+  lilypond --loglevel=WARNING --svg -dcrop -dmidi-extension=mid \
+    --output="$file" "$file.ly"
 
-# Convert WAV to WebM
-ffmpeg -y -f lavfi -i 'color=c=black:s=320x180' -i "$input.wav" -c:v libvpx-vp9 -c:a libopus -af 'silenceremove=stop_periods=1:stop_threshold=-50dB' -shortest -pix_fmt yuv420p "$input.webm"
+  mv "$file.cropped.svg" "$file.svg"
 
-rm "$input.wav"
+  # Set SVG background to white
+  rsvg-convert --background-color=white --format=svg \
+    --output="$file.svg" "$file.svg"
+
+  # Convert MIDI to WAV
+  fluidsynth --quiet --fast-render="$file.wav" "$SOUNDFONT" "$file.mid"
+
+  # Convert WAV to WebM
+  ffmpeg -y -loglevel error \
+    -f lavfi -i 'color=color=black:size=320x180' -i "$file.wav" \
+    -codec:v libvpx-vp9 -codec:a libopus \
+    -filter:a 'silenceremove=stop_periods=1:stop_threshold=-50dB' \
+    -shortest -pix_fmt yuv420p "$file.webm"
+done
