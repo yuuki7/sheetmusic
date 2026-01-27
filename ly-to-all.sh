@@ -23,6 +23,9 @@ for ly_file in ${1:-*}/*.ly; do
   rsvg-convert --background-color=white --format=svg \
     --output="$file.svg" "$file.svg"
 
+  # Format SVG
+  xmllint --format --encode UTF-8 --output "$file.svg" "$file.svg"
+
   # Convert MIDI to WAV
   fluidsynth --quiet --fast-render="$file.wav" "$SOUNDFONT" "$file.mid"
 
