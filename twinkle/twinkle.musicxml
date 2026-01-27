@@ -1,23 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 2.0 Partwise//EN"
-                                "http://www.musicxml.org/dtds/partwise.dtd">
-<score-partwise version="3.0">
-  <identification>
-    <encoding>
-      <software>python-ly 0.9.9</software>
-      <encoding-date>2025-09-10</encoding-date>
-    </encoding>
-  </identification>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE score-partwise PUBLIC "-//Recordare//DTD MusicXML 4.0 Partwise//EN" "http://www.musicxml.org/dtds/partwise.dtd">
+<score-partwise version="4.0">
+  <movement-title>Twinkle, Twinkle, Little Star</movement-title>
   <part-list>
     <score-part id="P1">
-      <part-name />
+      <part-name print-object="no"/>
     </score-part>
   </part-list>
   <part id="P1">
     <measure number="1">
       <attributes>
         <divisions>1</divisions>
-        <time symbol="common">
+        <key>
+          <fifths>0</fifths>
+          <mode>major</mode>
+        </key>
+        <time>
           <beats>4</beats>
           <beat-type>4</beat-type>
         </time>
@@ -26,6 +24,13 @@
           <line>2</line>
         </clef>
       </attributes>
+      <sound tempo="120"/>
+      <harmony>
+        <root>
+          <root-step>C</root-step>
+        </root>
+        <kind>major</kind>
+      </harmony>
       <note>
         <pitch>
           <step>C</step>
@@ -34,6 +39,7 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
       </note>
       <note>
         <pitch>
@@ -43,6 +49,7 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
       </note>
       <note>
         <pitch>
@@ -52,6 +59,7 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
       </note>
       <note>
         <pitch>
@@ -61,9 +69,16 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
       </note>
     </measure>
     <measure number="2">
+      <harmony>
+        <root>
+          <root-step>F</root-step>
+        </root>
+        <kind>major</kind>
+      </harmony>
       <note>
         <pitch>
           <step>A</step>
@@ -72,6 +87,7 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
       </note>
       <note>
         <pitch>
@@ -81,7 +97,14 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
       </note>
+      <harmony>
+        <root>
+          <root-step>C</root-step>
+        </root>
+        <kind>major</kind>
+      </harmony>
       <note>
         <pitch>
           <step>G</step>
@@ -90,9 +113,16 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>half</type>
+        <stem>up</stem>
       </note>
     </measure>
     <measure number="3">
+      <harmony>
+        <root>
+          <root-step>F</root-step>
+        </root>
+        <kind>major</kind>
+      </harmony>
       <note>
         <pitch>
           <step>F</step>
@@ -101,6 +131,7 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
       </note>
       <note>
         <pitch>
@@ -110,6 +141,23 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
+      </note>
+      <harmony>
+        <root>
+          <root-step>C</root-step>
+        </root>
+        <kind>major</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
       </note>
       <note>
         <pitch>
@@ -119,18 +167,16 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
-      </note>
-      <note>
-        <pitch>
-          <step>E</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <voice>1</voice>
-        <type>quarter</type>
+        <stem>up</stem>
       </note>
     </measure>
     <measure number="4">
+      <harmony>
+        <root>
+          <root-step>G</root-step>
+        </root>
+        <kind>major</kind>
+      </harmony>
       <note>
         <pitch>
           <step>D</step>
@@ -139,6 +185,7 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
       </note>
       <note>
         <pitch>
@@ -148,7 +195,14 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
       </note>
+      <harmony>
+        <root>
+          <root-step>C</root-step>
+        </root>
+        <kind>major</kind>
+      </harmony>
       <note>
         <pitch>
           <step>C</step>
@@ -157,10 +211,11 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>half</type>
+        <stem>up</stem>
       </note>
     </measure>
     <measure number="5">
-      <print new-system="yes" />
+      <print new-system="yes"/>
       <note>
         <pitch>
           <step>G</step>
@@ -169,6 +224,7 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
       </note>
       <note>
         <pitch>
@@ -178,6 +234,23 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
+      </note>
+      <harmony>
+        <root>
+          <root-step>F</root-step>
+        </root>
+        <kind>major</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
       </note>
       <note>
         <pitch>
@@ -187,18 +260,16 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
-      </note>
-      <note>
-        <pitch>
-          <step>F</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <voice>1</voice>
-        <type>quarter</type>
+        <stem>up</stem>
       </note>
     </measure>
     <measure number="6">
+      <harmony>
+        <root>
+          <root-step>C</root-step>
+        </root>
+        <kind>major</kind>
+      </harmony>
       <note>
         <pitch>
           <step>E</step>
@@ -207,6 +278,7 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
       </note>
       <note>
         <pitch>
@@ -216,7 +288,14 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
       </note>
+      <harmony>
+        <root>
+          <root-step>G</root-step>
+        </root>
+        <kind>major</kind>
+      </harmony>
       <note>
         <pitch>
           <step>D</step>
@@ -225,9 +304,16 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>half</type>
+        <stem>up</stem>
       </note>
     </measure>
     <measure number="7">
+      <harmony>
+        <root>
+          <root-step>C</root-step>
+        </root>
+        <kind>major</kind>
+      </harmony>
       <note>
         <pitch>
           <step>G</step>
@@ -236,6 +322,7 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
       </note>
       <note>
         <pitch>
@@ -245,6 +332,23 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
+      </note>
+      <harmony>
+        <root>
+          <root-step>F</root-step>
+        </root>
+        <kind>major</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>F</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
       </note>
       <note>
         <pitch>
@@ -254,18 +358,16 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
-      </note>
-      <note>
-        <pitch>
-          <step>F</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <voice>1</voice>
-        <type>quarter</type>
+        <stem>up</stem>
       </note>
     </measure>
     <measure number="8">
+      <harmony>
+        <root>
+          <root-step>C</root-step>
+        </root>
+        <kind>major</kind>
+      </harmony>
       <note>
         <pitch>
           <step>E</step>
@@ -274,6 +376,7 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
       </note>
       <note>
         <pitch>
@@ -283,7 +386,14 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
       </note>
+      <harmony>
+        <root>
+          <root-step>G</root-step>
+        </root>
+        <kind>major</kind>
+      </harmony>
       <note>
         <pitch>
           <step>D</step>
@@ -292,10 +402,17 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>half</type>
+        <stem>up</stem>
       </note>
     </measure>
     <measure number="9">
-      <print new-system="yes" />
+      <print new-system="yes"/>
+      <harmony>
+        <root>
+          <root-step>C</root-step>
+        </root>
+        <kind>major</kind>
+      </harmony>
       <note>
         <pitch>
           <step>C</step>
@@ -304,6 +421,7 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
       </note>
       <note>
         <pitch>
@@ -313,6 +431,7 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
       </note>
       <note>
         <pitch>
@@ -322,6 +441,7 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
       </note>
       <note>
         <pitch>
@@ -331,9 +451,16 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
       </note>
     </measure>
     <measure number="10">
+      <harmony>
+        <root>
+          <root-step>F</root-step>
+        </root>
+        <kind>major</kind>
+      </harmony>
       <note>
         <pitch>
           <step>A</step>
@@ -342,6 +469,7 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
       </note>
       <note>
         <pitch>
@@ -351,7 +479,14 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
       </note>
+      <harmony>
+        <root>
+          <root-step>C</root-step>
+        </root>
+        <kind>major</kind>
+      </harmony>
       <note>
         <pitch>
           <step>G</step>
@@ -360,9 +495,16 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>half</type>
+        <stem>up</stem>
       </note>
     </measure>
     <measure number="11">
+      <harmony>
+        <root>
+          <root-step>F</root-step>
+        </root>
+        <kind>major</kind>
+      </harmony>
       <note>
         <pitch>
           <step>F</step>
@@ -371,6 +513,7 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
       </note>
       <note>
         <pitch>
@@ -380,6 +523,23 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
+      </note>
+      <harmony>
+        <root>
+          <root-step>C</root-step>
+        </root>
+        <kind>major</kind>
+      </harmony>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1</duration>
+        <voice>1</voice>
+        <type>quarter</type>
+        <stem>up</stem>
       </note>
       <note>
         <pitch>
@@ -389,18 +549,16 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
-      </note>
-      <note>
-        <pitch>
-          <step>E</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>1</duration>
-        <voice>1</voice>
-        <type>quarter</type>
+        <stem>up</stem>
       </note>
     </measure>
     <measure number="12">
+      <harmony>
+        <root>
+          <root-step>G</root-step>
+        </root>
+        <kind>major</kind>
+      </harmony>
       <note>
         <pitch>
           <step>D</step>
@@ -409,6 +567,7 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
       </note>
       <note>
         <pitch>
@@ -418,7 +577,14 @@
         <duration>1</duration>
         <voice>1</voice>
         <type>quarter</type>
+        <stem>up</stem>
       </note>
+      <harmony>
+        <root>
+          <root-step>C</root-step>
+        </root>
+        <kind>major</kind>
+      </harmony>
       <note>
         <pitch>
           <step>C</step>
@@ -427,7 +593,11 @@
         <duration>2</duration>
         <voice>1</voice>
         <type>half</type>
+        <stem>up</stem>
       </note>
+      <barline location="right">
+        <bar-style>light-heavy</bar-style>
+      </barline>
     </measure>
   </part>
 </score-partwise>
