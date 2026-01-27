@@ -20,12 +20,11 @@ for ly_file in ${1:-*}/*.ly; do
 
   mv "$file.cropped.svg" "$file.svg"
 
-  # Set SVG background to white
-  rsvg-convert --background-color=white --format=svg \
-    --output="$file.svg" "$file.svg"
-
   # Optimize SVG
   npx svgo --quiet "$file.svg"
+
+  # Set SVG background to white
+  ./svg-bg.js "$file.svg"
 
   # Format SVG
   xmllint --format --encode UTF-8 --output "$file.svg" "$file.svg"
