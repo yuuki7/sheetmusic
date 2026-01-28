@@ -1,101 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="459.439" height="34.3mm" viewBox="-0.888 0 69.174 19.52">
+<svg xmlns="http://www.w3.org/2000/svg" width="383.849" height="36.29mm" viewBox="-0.888 0 57.793 20.65">
   <rect width="100%" height="100%" fill="#fff"/>
   <style>tspan{white-space:pre}</style>
-  <text fill="currentColor" font-family="serif" font-size="3.493" font-weight="bold" transform="translate(14.443 2.313)">
+  <text fill="currentColor" font-family="serif" font-size="3.493" font-weight="bold" transform="translate(8.752 2.313)">
     <tspan>Row, Row, Row Your Boat</tspan>
   </text>
-  <rect width=".19" height="4" y="-2" fill="currentColor" ry="0" transform="translate(21.562 7.446)"/>
-  <rect width="1.956" height=".2" x="22.623" y="-.1" fill="currentColor" ry=".1" transform="translate(0 10.446)"/>
-  <rect width="1.956" height=".2" x="14.6" y="-.1" fill="currentColor" ry=".1" transform="translate(0 10.446)"/>
-  <rect width="1.956" height=".2" x="8.142" y="-.1" fill="currentColor" ry=".1" transform="translate(0 10.446)"/>
-  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".1" d="M.05 9.446h68.187M.05 8.446h68.187M.05 7.446h68.187M.05 6.446h68.187M.05 5.446h68.187"/>
-  <rect width=".19" height="4" y="-2" fill="currentColor" ry="0" transform="translate(68.097 7.446)"/>
-  <rect width=".19" height="4" y="-2" fill="currentColor" ry="0" transform="translate(56.989 7.446)"/>
-  <rect width=".19" height="4" y="-2" fill="currentColor" ry="0" transform="translate(38.296 7.446)"/>
-  <text fill="currentColor" font-family="sans-serif" font-size="2.616" transform="translate(8.468 4.862)">
+  <rect width=".19" height="4" y="-2" fill="currentColor" ry="0" transform="translate(33.055 7.446)"/>
+  <rect width="1.956" height=".2" x="19.322" y="-.1" fill="currentColor" ry=".1" transform="translate(0 10.446)"/>
+  <rect width="1.956" height=".2" x="13.8" y="-.1" fill="currentColor" ry=".1" transform="translate(0 10.446)"/>
+  <rect width="1.956" height=".2" x="8.279" y="-.1" fill="currentColor" ry=".1" transform="translate(0 10.446)"/>
+  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".1" d="M.05 9.446h56.805M.05 8.446h56.805M.05 7.446h56.805M.05 6.446h56.805M.05 5.446h56.805"/>
+  <rect width=".19" height="4" y="-2" fill="currentColor" ry="0" transform="translate(56.715 7.446)"/>
+  <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M48.073 5.246v.4l-4.988.19v-.4zM48.073 6.056v.4l-1.085.044v-.4zM40.425 6.436v.4l-4.988-.38v-.4zM40.425 7.246v.4l-1.085-.087v-.4z"/>
+  <text fill="currentColor" font-family="sans-serif" font-size="2.616" transform="translate(8.605 4.862)">
     <tspan>C</tspan>
   </text>
-  <path fill="currentColor" d="M9.34 9.902c.264 0 .432.144.432.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732M1.864 10.986H1.84a.783.783 0 0 1-.78-.788c0-.232.212-.412.448-.412.216 0 .38.188.38.412 0 .208-.172.38-.38.38a.3.3 0 0 1-.124-.024c.104.156.272.26.468.26h.016zm.78-1.728a.69.69 0 0 0 .452-.656.764.764 0 0 0-.692-.76c.076.356.192.968.24 1.416m-1.548-.924c0 .58.564.988 1.056.988.004 0 .188 0 .328-.024a17 17 0 0 0-.252-1.456c-.316.032-.496.244-.496.476 0 .176.1.364.324.492q.029.03.028.06c0 .044-.04.088-.088.088-.06 0-.504-.248-.504-.748 0-.352.232-.696.64-.788a15 15 0 0 0-.184-.7c-.428.484-.852.972-.852 1.612m.704-2.1c-.116-.384-.208-.68-.208-1.384 0-.46.22-.896.596-1.168a.06.06 0 0 1 .08 0c.272.32.532.98.532 1.432 0 .572-.344 1.02-.72 1.456.084.272.156.552.224.828.008 0 .028-.004.052-.004.62 0 1.024.512 1.024 1.044 0 .452-.296.848-.72.984q.019.21.02.42c0 .076-.004.156-.008.232-.028.476-.352.9-.808.912l.004-.172c.372-.008.612-.368.636-.764a3.775 3.775 0 0 0-.008-.588c-.02.004-.176.032-.356.032-.772 0-1.332-.72-1.332-1.496 0-.708.524-1.224.992-1.764m.712-1.452c0-.136.004-.264-.08-.516a1.15 1.15 0 0 0-.648 1.036c0 .208.048.46.144.776.32-.388.584-.792.584-1.296M5.731 6.41c-.204 0-.212.172-.212.4v.144c0 .228.008.4.212.4.228 0 .244-.204.244-.472s-.016-.472-.244-.472m-.212-.028a.4.4 0 0 1 .212-.064c.404 0 .68.184.68.564s-.276.564-.68.564c-.448 0-.68-.496-.68-1 0-.512.288-1 .76-1 .28 0 .544.156.544.412 0 .144-.116.264-.26.264s-.264-.12-.264-.264c0-.096.16-.1.16-.196 0-.08-.092-.124-.18-.124-.264 0-.3.26-.3.556 0 .096.008.192.008.288"/>
-  <path fill="currentColor" d="M6.044 8.298c.1-.12.176-.256.176-.412 0-.216-.22-.348-.456-.348a.284.284 0 0 0-.292.284c0 .084.04.168.124.216zm.124.072c.092.052.32.216.32.5 0 .292-.264.576-.756.576-.376 0-.732-.216-.732-.56 0-.2.144-.348.288-.492a.52.52 0 0 1-.22-.412c0-.272.24-.536.696-.536.32 0 .628.156.628.44 0 .184-.1.344-.224.484m-.756.1c-.124.12-.236.244-.236.416 0 .276.264.468.556.468a.334.334 0 0 0 .344-.332.27.27 0 0 0-.14-.248zM10.222 9.946a.224.224 0 1 1 .448 0 .224.224 0 0 1-.448 0"/>
-  <rect width=".13" height="3.314" x="-.065" y="-.5" fill="currentColor" ry=".04" transform="translate(9.707 7.446)"/>
-  <path fill="currentColor" d="M15.798 9.902c.264 0 .432.144.432.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732M16.68 9.946a.224.224 0 1 1 .447 0 .224.224 0 0 1-.447 0"/>
-  <rect width=".13" height="3.314" x="-.065" y="-.5" fill="currentColor" ry=".04" transform="translate(16.165 7.446)"/>
-  <path fill="currentColor" d="M23.822 9.902c.264 0 .432.144.432.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732"/>
-  <rect width=".13" height="3.314" x="-.065" y="-.5" fill="currentColor" ry=".04" transform="translate(24.189 7.446)"/>
-  <path fill="currentColor" d="M29.113 9.402c.264 0 .432.144.432.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732"/>
-  <rect width=".13" height="3.314" x="-.065" y="-1" fill="currentColor" ry=".04" transform="translate(29.48 7.446)"/>
-  <path fill="currentColor" d="M29.545 6.486v1h-.064v-1zm0 0c0 .788.828 1.344.828 2.132 0 .284-.06.564-.164.828a.1.1 0 0 1-.08.048c-.052 0-.104-.044-.092-.108.104-.244.168-.504.168-.768 0-.412-.376-.832-.66-1.132zM32.474 8.902c.264 0 .432.144.432.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732M33.356 8.946a.224.224 0 1 1 .447 0 .224.224 0 0 1-.447 0"/>
-  <rect width=".13" height="3.314" x="-.065" y="-1.5" fill="currentColor" ry=".04" transform="translate(32.841 7.446)"/>
-  <path fill="currentColor" d="M40.556 8.902c.264 0 .432.144.432.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732"/>
-  <rect width=".13" height="3.314" x="-.065" y="-1.5" fill="currentColor" ry=".04" transform="translate(40.923 7.446)"/>
-  <path fill="currentColor" d="M45.847 9.402c.264 0 .432.144.432.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732"/>
-  <rect width=".13" height="3.314" x="-.065" y="-1" fill="currentColor" ry=".04" transform="translate(46.215 7.446)"/>
-  <path fill="currentColor" d="M46.28 6.486v1h-.064v-1zm0 0c0 .788.828 1.344.828 2.132 0 .284-.06.564-.164.828a.1.1 0 0 1-.08.048c-.052 0-.104-.044-.092-.108.104-.244.168-.504.168-.768 0-.412-.376-.832-.66-1.132zM49.208 8.902c.264 0 .432.144.432.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732"/>
-  <rect width=".13" height="3.314" x="-.065" y="-1.5" fill="currentColor" ry=".04" transform="translate(49.576 7.446)"/>
-  <path fill="currentColor" d="M54.5 8.402c.264 0 .432.144.432.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732"/>
-  <rect width=".13" height="3.314" x="-.065" y="-2" fill="currentColor" ry=".04" transform="translate(54.867 7.446)"/>
-  <path fill="currentColor" d="M54.932 5.486v1h-.064v-1zm0 0c0 .788.828 1.344.828 2.132 0 .284-.06.564-.164.828a.1.1 0 0 1-.08.048c-.052 0-.104-.044-.092-.108.104-.244.168-.504.168-.768 0-.412-.376-.832-.66-1.132zM60.633 8.186a.166.166 0 0 0-.169-.164c-.155 0-.815.44-.923.572a.17.17 0 0 0-.04.112c0 .092.076.164.168.164.156 0 .812-.44.92-.572a.17.17 0 0 0 .044-.112m-.209-.284c.165 0 .329.056.329.284 0 .104-.064.448-.296.604-.1.068-.348.2-.748.2-.164 0-.332-.056-.332-.284 0-.104.064-.448.296-.604.1-.068.352-.2.752-.2M61.204 7.946a.224.224 0 1 1 .447 0 .224.224 0 0 1-.447 0"/>
-  <rect width=".13" height="3.241" x="-.065" y="-2.5" fill="currentColor" ry=".04" transform="translate(60.689 7.446)"/>
-  <rect width=".19" height="4" y="-2" fill="currentColor" ry="0" transform="translate(23.165 15.97)"/>
-  <rect width="2.066" height=".2" x="59.62" y="-.1" fill="currentColor" ry=".1" transform="translate(0 18.97)"/>
-  <rect width="1.956" height=".2" x="38.261" y="-.1" fill="currentColor" ry=".1" transform="translate(0 18.97)"/>
-  <rect width="1.956" height=".2" x="35.373" y="-.1" fill="currentColor" ry=".1" transform="translate(0 18.97)"/>
-  <rect width="1.956" height=".2" x="32.486" y="-.1" fill="currentColor" ry=".1" transform="translate(0 18.97)"/>
-  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".1" d="M.05 17.97h68.187M.05 16.97h68.187M.05 15.97h68.187M.05 14.97h68.187M.05 13.97h68.187"/>
-  <rect width=".6" height="4" y="-2" fill="currentColor" ry="0" transform="translate(67.687 15.97)"/>
-  <rect width=".19" height="4" y="-2" fill="currentColor" ry="0" transform="translate(67.197 15.97)"/>
-  <rect width=".19" height="4" y="-2" fill="currentColor" ry="0" transform="translate(57.73 15.97)"/>
-  <rect width=".19" height="4" y="-2" fill="currentColor" ry="0" transform="translate(41.653 15.97)"/>
-  <path fill="currentColor" d="M33.684 18.426c.264 0 .432.144.432.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732M1.864 19.51H1.84a.783.783 0 0 1-.78-.788c0-.232.212-.412.448-.412.216 0 .38.188.38.412 0 .208-.172.38-.38.38a.3.3 0 0 1-.124-.024c.104.156.272.26.468.26h.016zm.78-1.728a.69.69 0 0 0 .452-.656.764.764 0 0 0-.692-.76c.076.356.192.968.24 1.416m-1.548-.924c0 .58.564.988 1.056.988.004 0 .188 0 .328-.024a17 17 0 0 0-.252-1.456c-.316.032-.496.244-.496.476 0 .176.1.364.324.492q.029.03.028.06c0 .044-.04.088-.088.088-.06 0-.504-.248-.504-.748 0-.352.232-.696.64-.788a15 15 0 0 0-.184-.7c-.428.484-.852.972-.852 1.612m.704-2.1c-.116-.384-.208-.68-.208-1.384 0-.46.22-.896.596-1.168a.06.06 0 0 1 .08 0c.272.32.532.98.532 1.432 0 .572-.344 1.02-.72 1.456.084.272.156.552.224.828.008 0 .028-.004.052-.004.62 0 1.024.512 1.024 1.044 0 .452-.296.848-.72.984q.019.21.02.42-.001.116-.008.232c-.028.476-.352.9-.808.912l.004-.172c.372-.008.612-.368.636-.764a3.775 3.775 0 0 0-.008-.588c-.02.004-.176.032-.356.032-.772 0-1.332-.72-1.332-1.496 0-.708.524-1.224.992-1.764m.712-1.452c0-.136.004-.264-.08-.516a1.15 1.15 0 0 0-.648 1.036c0 .208.048.46.144.776.32-.388.584-.792.584-1.296"/>
-  <text fill="currentColor" font-family="serif" font-size="1.746" transform="translate(-.888 12.9)">
-    <tspan>5</tspan>
+  <path fill="currentColor" d="M9.477 9.902c.264 0 .432.144.432.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732M1.864 10.986H1.84a.783.783 0 0 1-.78-.788c0-.232.212-.412.448-.412.216 0 .38.188.38.412 0 .208-.172.38-.38.38a.3.3 0 0 1-.124-.024c.104.156.272.26.468.26h.016zm.78-1.728a.69.69 0 0 0 .452-.656.764.764 0 0 0-.692-.76c.076.356.192.968.24 1.416m-1.548-.924c0 .58.564.988 1.056.988.004 0 .188 0 .328-.024a17 17 0 0 0-.252-1.456c-.316.032-.496.244-.496.476 0 .176.1.364.324.492q.029.03.028.06c0 .044-.04.088-.088.088-.06 0-.504-.248-.504-.748 0-.352.232-.696.64-.788a15 15 0 0 0-.184-.7c-.428.484-.852.972-.852 1.612m.704-2.1c-.116-.384-.208-.68-.208-1.384 0-.46.22-.896.596-1.168a.06.06 0 0 1 .08 0c.272.32.532.98.532 1.432 0 .572-.344 1.02-.72 1.456.084.272.156.552.224.828.008 0 .028-.004.052-.004.62 0 1.024.512 1.024 1.044 0 .452-.296.848-.72.984q.019.21.02.42c0 .076-.004.156-.008.232-.028.476-.352.9-.808.912l.004-.172c.372-.008.612-.368.636-.764a3.775 3.775 0 0 0-.008-.588c-.02.004-.176.032-.356.032-.772 0-1.332-.72-1.332-1.496 0-.708.524-1.224.992-1.764m.712-1.452c0-.136.004-.264-.08-.516a1.15 1.15 0 0 0-.648 1.036c0 .208.048.46.144.776.32-.388.584-.792.584-1.296M5.784 6.978h.468c0 .192.108.376.288.376.032 0 .048.02.048.044s-.016.048-.048.048c-.176 0-.348-.052-.524-.052s-.348.052-.524.052c-.032 0-.048-.024-.048-.048s.016-.044.048-.044c.18 0 .292-.184.292-.376m-.792-.124c0-.048.56-.572.56-1.344 0-.04.028-.076.064-.064.092.028.188.052.284.052s.192-.024.284-.052c.056-.016.092.036.068.064L5.116 6.83h.668v-.524c0-.136.136-.108.272-.288.088-.12.092-.224.144-.224.024 0 .052.02.052.056v.98h.288c.04 0 .06.028.06.056s-.02.06-.06.06h-.288v.032h-.468v-.032h-.668c-.092 0-.124-.056-.124-.092M5.784 8.994h.468c0 .192.108.376.288.376.032 0 .048.02.048.044s-.016.048-.048.048c-.176 0-.348-.052-.524-.052s-.348.052-.524.052c-.032 0-.048-.024-.048-.048s.016-.044.048-.044c.18 0 .292-.184.292-.376m-.792-.124c0-.048.56-.572.56-1.344 0-.04.028-.076.064-.064.092.028.188.052.284.052s.192-.024.284-.052c.056-.016.092.036.068.064l-1.136 1.32h.668v-.524c0-.136.136-.108.272-.288.088-.12.092-.224.144-.224.024 0 .052.02.052.056v.98h.288c.04 0 .06.028.06.056s-.02.06-.06.06h-.288v.032h-.468v-.032h-.668c-.092 0-.124-.056-.124-.092"/>
+  <rect width=".13" height="3.314" x="-.065" y="-.5" fill="currentColor" ry=".04" transform="translate(9.844 7.446)"/>
+  <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M25.85 6.246v.4l-4.988.19v-.4zM25.85 7.056v.4l-1.084.044v-.4z"/>
+  <path fill="currentColor" d="M14.999 9.902c.263 0 .431.144.431.356 0 .356-.451.732-.871.732-.264 0-.432-.144-.432-.356 0-.356.451-.732.871-.732"/>
+  <rect width=".13" height="3.314" x="-.065" y="-.5" fill="currentColor" ry=".04" transform="translate(15.366 7.446)"/>
+  <path fill="currentColor" d="M20.52 9.902c.264 0 .432.144.432.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732M21.403 9.946a.224.224 0 1 1 .447 0 .224.224 0 0 1-.448 0"/>
+  <rect width=".13" height="3.626" x="-.065" y="-.812" fill="currentColor" ry=".04" transform="translate(20.887 7.446)"/>
+  <path fill="currentColor" d="M25.459 9.402c.264 0 .432.144.432.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732"/>
+  <rect width=".13" height="3.312" x="-.065" y="-.998" fill="currentColor" ry=".04" transform="translate(25.826 7.446)"/>
+  <path fill="currentColor" d="M28.169 8.902c.264 0 .432.144.432.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732"/>
+  <rect width=".13" height="3.314" x="-.065" y="-1.5" fill="currentColor" ry=".04" transform="translate(28.536 7.446)"/>
+  <path fill="currentColor" d="M35.094 8.902c.264 0 .432.144.432.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732M35.977 8.946a.224.224 0 1 1 .447 0 .224.224 0 0 1-.447 0"/>
+  <rect width=".13" height="2.999" x="-.065" y="-1.185" fill="currentColor" ry=".04" transform="translate(35.462 7.446)"/>
+  <path fill="currentColor" d="M40.033 9.402c.264 0 .432.144.432.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732"/>
+  <rect width=".13" height="3.129" x="-.065" y="-.815" fill="currentColor" ry=".04" transform="translate(40.4 7.446)"/>
+  <path fill="currentColor" d="M42.743 8.902c.264 0 .432.144.432.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732M43.625 8.946a.224.224 0 1 1 .447 0 .224.224 0 0 1-.447 0"/>
+  <rect width=".13" height="3.626" x="-.065" y="-1.812" fill="currentColor" ry=".04" transform="translate(43.11 7.446)"/>
+  <path fill="currentColor" d="M47.68 8.402c.265 0 .433.144.433.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732"/>
+  <rect width=".13" height="3.312" x="-.065" y="-1.998" fill="currentColor" ry=".04" transform="translate(48.048 7.446)"/>
+  <path fill="currentColor" d="M50.775 8.186a.166.166 0 0 0-.168-.164c-.156 0-.816.44-.924.572a.17.17 0 0 0-.04.112c0 .092.076.164.168.164.156 0 .812-.44.92-.572a.17.17 0 0 0 .044-.112m-.208-.284c.164 0 .328.056.328.284 0 .104-.064.448-.296.604-.1.068-.348.2-.748.2-.164 0-.332-.056-.332-.284 0-.104.064-.448.296-.604.1-.068.352-.2.752-.2"/>
+  <rect width=".13" height="3.241" x="-.065" y="-2.5" fill="currentColor" ry=".04" transform="translate(50.831 7.446)"/>
+  <rect width=".19" height="4" y="-2" fill="currentColor" ry="0" transform="translate(37.293 15.9)"/>
+  <rect width="2.066" height=".2" x="50.07" y="-.1" fill="currentColor" ry=".1" transform="translate(0 18.9)"/>
+  <rect width="1.956" height=".2" x="34.124" y="-.1" fill="currentColor" ry=".1" transform="translate(0 18.9)"/>
+  <rect width="1.956" height=".2" x="31.459" y="-.1" fill="currentColor" ry=".1" transform="translate(0 18.9)"/>
+  <rect width="1.956" height=".2" x="28.795" y="-.1" fill="currentColor" ry=".1" transform="translate(0 18.9)"/>
+  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".1" d="M.05 17.9h56.805M.05 16.9h56.805M.05 15.9h56.805M.05 14.9h56.805M.05 13.9h56.805"/>
+  <rect width=".6" height="4" y="-2" fill="currentColor" ry="0" transform="translate(56.306 15.9)"/>
+  <rect width=".19" height="4" y="-2" fill="currentColor" ry="0" transform="translate(55.816 15.9)"/>
+  <path fill="currentColor" d="M32.657 18.356c.264 0 .432.144.432.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732M1.864 19.44H1.84a.783.783 0 0 1-.78-.788c0-.232.212-.412.448-.412.216 0 .38.188.38.412 0 .208-.172.38-.38.38a.3.3 0 0 1-.124-.024c.104.156.272.26.468.26h.016zm.78-1.728a.69.69 0 0 0 .452-.656.764.764 0 0 0-.692-.76c.076.356.192.968.24 1.416m-1.548-.924c0 .58.564.988 1.056.988.004 0 .188 0 .328-.024a17 17 0 0 0-.252-1.456c-.316.032-.496.244-.496.476 0 .176.1.364.324.492q.029.03.028.06c0 .044-.04.088-.088.088-.06 0-.504-.248-.504-.748 0-.352.232-.696.64-.788a15 15 0 0 0-.184-.7c-.428.484-.852.972-.852 1.612m.704-2.1c-.116-.384-.208-.68-.208-1.384 0-.46.22-.896.596-1.168a.06.06 0 0 1 .08 0c.272.32.532.98.532 1.432 0 .572-.344 1.02-.72 1.456.084.272.156.552.224.828.008 0 .028-.004.052-.004.62 0 1.024.512 1.024 1.044 0 .452-.296.848-.72.984q.019.21.02.42-.001.116-.008.232c-.028.476-.352.9-.808.912l.004-.172c.372-.008.612-.368.636-.764q.007-.11.008-.22.001-.184-.016-.368c-.02.004-.176.032-.356.032-.772 0-1.332-.72-1.332-1.496 0-.708.524-1.224.992-1.764m.712-1.452c0-.136.004-.264-.08-.516a1.15 1.15 0 0 0-.648 1.036c0 .208.048.46.144.776.32-.388.584-.792.584-1.296"/>
+  <text fill="currentColor" font-family="serif" font-size="1.746" transform="translate(-.888 12.83)">
+    <tspan>3</tspan>
   </text>
-  <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M21.341 13.77v.4h-5.825v-.4z"/>
-  <text fill="currentColor" font-family="sans-serif" font-size="2.616" transform="translate(5.8 12.933)">
-    <tspan>C</tspan>
+  <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M49.412 14.89v.4l-3.839-.38v-.4zM49.413 15.7v.4l-1.085-.113v-.4z"/>
+  <path fill="currentColor" d="M6.672 14.856c.264 0 .432.144.432.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732"/>
+  <rect width=".13" height="3.124" x="-.065" y="-.314" fill="currentColor" ry=".04" transform="translate(5.865 15.9)"/>
+  <path fill="currentColor" d="M9.337 14.856c.264 0 .432.144.432.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732"/>
+  <rect width=".13" height="3.124" x="-.065" y="-.314" fill="currentColor" ry=".04" transform="translate(8.53 15.9)"/>
+  <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M35.714 15.7v.4h-5.379v-.4z"/>
+  <path fill="currentColor" d="M12.001 14.856c.264 0 .432.144.432.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732"/>
+  <rect width=".13" height="3.124" x="-.065" y="-.314" fill="currentColor" ry=".04" transform="translate(11.194 15.9)"/>
+  <text fill="currentColor" font-family="serif" font-size="1.746" font-style="italic" transform="translate(24.837 13.98)">
+    <tspan>3</tspan>
   </text>
-  <path fill="currentColor" d="M6.672 14.926c.264 0 .432.144.432.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732"/>
-  <rect width=".13" height="3.124" x="-.065" y="-.314" fill="currentColor" ry=".04" transform="translate(5.865 15.97)"/>
-  <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M11.665 18.58v.4H5.84v-.4z"/>
-  <path fill="currentColor" d="M9.56 14.926c.264 0 .432.144.432.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732"/>
-  <rect width=".13" height="3.124" x="-.065" y="-.314" fill="currentColor" ry=".04" transform="translate(8.753 15.97)"/>
-  <path fill="currentColor" d="M12.447 14.926c.264 0 .432.144.432.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732"/>
-  <rect width=".13" height="3.124" x="-.065" y="-.314" fill="currentColor" ry=".04" transform="translate(11.64 15.97)"/>
-  <path fill="currentColor" d="M15.174 16.426c.264 0 .432.144.432.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732"/>
-  <rect width=".13" height="2.814" x="-.065" y="-2" fill="currentColor" ry=".04" transform="translate(15.54 15.97)"/>
-  <path fill="currentColor" d="M18.061 16.426c.264 0 .432.144.432.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732"/>
-  <rect width=".13" height="2.814" x="-.065" y="-2" fill="currentColor" ry=".04" transform="translate(18.428 15.97)"/>
-  <path fill="currentColor" d="M20.949 16.426c.264 0 .432.144.432.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732"/>
-  <rect width=".13" height="2.814" x="-.065" y="-2" fill="currentColor" ry=".04" transform="translate(21.316 15.97)"/>
-  <path fill="currentColor" d="M25.271 17.426c.264 0 .432.144.432.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732"/>
-  <rect width=".13" height="2.814" x="-.065" y="-1" fill="currentColor" ry=".04" transform="translate(25.638 15.97)"/>
-  <path fill="currentColor" d="M28.159 17.426c.264 0 .432.144.432.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732"/>
-  <rect width=".13" height="2.814" x="-.065" y="-1" fill="currentColor" ry=".04" transform="translate(28.526 15.97)"/>
-  <path fill="currentColor" d="M31.046 17.426c.264 0 .432.144.432.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732"/>
-  <rect width=".13" height="2.814" x="-.065" y="-1" fill="currentColor" ry=".04" transform="translate(31.414 15.97)"/>
-  <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M31.439 14.77v.4h-5.826v-.4z"/>
-  <rect width=".13" height="2.814" x="-.065" fill="currentColor" ry=".04" transform="translate(34.051 15.97)"/>
-  <path fill="currentColor" d="M36.572 18.426c.263 0 .431.144.431.356 0 .356-.451.732-.871.732-.264 0-.432-.144-.432-.356 0-.356.451-.732.871-.732"/>
-  <rect width=".13" height="2.814" x="-.065" fill="currentColor" ry=".04" transform="translate(36.939 15.97)"/>
-  <path fill="currentColor" d="M39.46 18.426c.263 0 .431.144.431.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732"/>
-  <rect width=".13" height="2.814" x="-.065" fill="currentColor" ry=".04" transform="translate(39.826 15.97)"/>
-  <text fill="currentColor" font-family="sans-serif" font-size="2.616" transform="translate(42.887 12.933)">
+  <path fill="currentColor" d="M14.505 16.356c.264 0 .432.144.432.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732"/>
+  <rect width=".13" height="2.814" x="-.065" y="-2" fill="currentColor" ry=".04" transform="translate(14.872 15.9)"/>
+  <path fill="currentColor" d="M17.17 16.356c.263 0 .431.144.431.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732"/>
+  <rect width=".13" height="2.814" x="-.065" y="-2" fill="currentColor" ry=".04" transform="translate(17.537 15.9)"/>
+  <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M27.97 14.7v.4h-5.379v-.4z"/>
+  <path fill="currentColor" d="M19.834 16.356c.264 0 .432.144.432.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732"/>
+  <rect width=".13" height="2.814" x="-.065" y="-2" fill="currentColor" ry=".04" transform="translate(20.201 15.9)"/>
+  <text fill="currentColor" font-family="serif" font-size="1.746" font-style="italic" transform="translate(17.093 13.14)">
+    <tspan>3</tspan>
+  </text>
+  <path fill="currentColor" d="M22.249 17.356c.264 0 .432.144.432.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732"/>
+  <rect width=".13" height="2.814" x="-.065" y="-1" fill="currentColor" ry=".04" transform="translate(22.616 15.9)"/>
+  <path fill="currentColor" d="M24.914 17.356c.263 0 .431.144.431.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732"/>
+  <rect width=".13" height="2.814" x="-.065" y="-1" fill="currentColor" ry=".04" transform="translate(25.28 15.9)"/>
+  <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M20.226 13.7v.4h-5.379v-.4z"/>
+  <path fill="currentColor" d="M27.578 17.356c.264 0 .432.144.432.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732"/>
+  <rect width=".13" height="2.814" x="-.065" y="-1" fill="currentColor" ry=".04" transform="translate(27.945 15.9)"/>
+  <text fill="currentColor" font-family="serif" font-size="1.746" font-style="italic" transform="translate(8.086 20.63)">
+    <tspan>3</tspan>
+  </text>
+  <path fill="currentColor" d="M29.993 18.356c.264 0 .432.144.432.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732"/>
+  <rect width=".13" height="2.814" x="-.065" fill="currentColor" ry=".04" transform="translate(30.36 15.9)"/>
+  <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M43.357 13.89v.4l-3.839-.38v-.4zM43.357 14.7v.4l-1.085-.113v-.4z"/>
+  <rect width=".13" height="2.814" x="-.065" fill="currentColor" ry=".04" transform="translate(33.025 15.9)"/>
+  <text fill="currentColor" font-family="serif" font-size="1.746" font-style="italic" transform="translate(32.58 14.98)">
+    <tspan>3</tspan>
+  </text>
+  <path fill="currentColor" d="M35.322 18.356c.264 0 .432.144.432.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732"/>
+  <rect width=".13" height="2.814" x="-.065" fill="currentColor" ry=".04" transform="translate(35.69 15.9)"/>
+  <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M11.22 18.51v.4H5.84v-.4z"/>
+  <text fill="currentColor" font-family="sans-serif" font-size="2.616" transform="translate(38.304 12.933)">
     <tspan>G</tspan>
   </text>
-  <path fill="currentColor" d="M43.759 16.426c.264 0 .432.144.432.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732"/>
-  <rect width=".13" height="3.314" x="-.065" y="-2.5" fill="currentColor" ry=".04" transform="translate(44.126 15.97)"/>
-  <path fill="currentColor" d="M48.23 16.926c.264 0 .432.144.432.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732"/>
-  <rect width=".13" height="3.314" x="-.065" y="-2" fill="currentColor" ry=".04" transform="translate(48.597 15.97)"/>
-  <path fill="currentColor" d="M48.662 14.01v1h-.064v-1zm0 0c0 .788.828 1.344.828 2.132 0 .284-.06.564-.164.828a.1.1 0 0 1-.08.048c-.052 0-.104-.044-.092-.108.104-.244.168-.504.168-.768 0-.412-.376-.832-.66-1.132zM51.18 17.426c.265 0 .433.144.433.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732"/>
-  <rect width=".13" height="3.314" x="-.065" y="-1.5" fill="currentColor" ry=".04" transform="translate(51.548 15.97)"/>
-  <path fill="currentColor" d="M55.652 17.926c.264 0 .432.144.432.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732"/>
-  <rect width=".13" height="3.314" x="-.065" y="-1" fill="currentColor" ry=".04" transform="translate(56.019 15.97)"/>
-  <path fill="currentColor" d="M56.084 15.01v1h-.064v-1zm0 0c0 .788.828 1.344.828 2.132 0 .284-.06.564-.164.828a.1.1 0 0 1-.08.048c-.052 0-.104-.044-.092-.108.104-.244.168-.504.168-.768 0-.412-.376-.832-.66-1.132z"/>
-  <text fill="currentColor" font-family="sans-serif" font-size="2.616" transform="translate(59.964 12.933)">
+  <path fill="currentColor" d="M39.176 16.356c.264 0 .432.144.432.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732M40.058 16.4a.224.224 0 1 1 .447-.001.224.224 0 0 1-.447 0"/>
+  <rect width=".13" height="2.998" x="-.065" y="-2.184" fill="currentColor" ry=".04" transform="translate(39.543 15.9)"/>
+  <path fill="currentColor" d="M42.965 16.856c.264 0 .432.144.432.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732"/>
+  <rect width=".13" height="3.13" x="-.065" y="-1.816" fill="currentColor" ry=".04" transform="translate(43.332 15.9)"/>
+  <path fill="currentColor" d="M45.23 17.356c.265 0 .433.144.433.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732M46.113 17.4a.224.224 0 1 1 .447-.001.224.224 0 0 1-.447 0"/>
+  <rect width=".13" height="2.998" x="-.065" y="-1.184" fill="currentColor" ry=".04" transform="translate(45.598 15.9)"/>
+  <path fill="currentColor" d="M49.02 17.856c.264 0 .432.144.432.356 0 .356-.452.732-.872.732-.264 0-.432-.144-.432-.356 0-.356.452-.732.872-.732"/>
+  <rect width=".13" height="3.13" x="-.065" y="-.816" fill="currentColor" ry=".04" transform="translate(49.388 15.9)"/>
+  <text fill="currentColor" font-family="sans-serif" font-size="2.616" transform="translate(50.414 12.933)">
     <tspan>C</tspan>
   </text>
-  <path fill="currentColor" d="M61.22 18.71a.166.166 0 0 0-.168-.164c-.156 0-.816.44-.924.572a.17.17 0 0 0-.04.112c0 .092.076.164.168.164.156 0 .812-.44.92-.572a.17.17 0 0 0 .044-.112m-.208-.284c.164 0 .328.056.328.284 0 .104-.064.448-.296.604-.1.068-.348.2-.748.2-.164 0-.332-.056-.332-.284 0-.104.064-.448.296-.604.1-.068.352-.2.752-.2M61.792 18.47a.224.224 0 1 1 .447-.001.224.224 0 0 1-.447 0"/>
-  <rect width=".13" height="3.241" x="-.065" y="-.5" fill="currentColor" ry=".04" transform="translate(61.277 15.97)"/>
-  <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width=".08" d="M39.851 15.77v.4h-5.825v-.4z"/>
+  <path fill="currentColor" d="M51.67 18.64a.166.166 0 0 0-.168-.164c-.156 0-.816.44-.924.572a.17.17 0 0 0-.04.112c0 .092.076.164.168.164.156 0 .812-.44.92-.572a.17.17 0 0 0 .044-.112m-.208-.284c.164 0 .328.056.328.284 0 .104-.064.448-.296.604-.1.068-.348.2-.748.2-.164 0-.332-.056-.332-.284 0-.104.064-.448.296-.604.1-.068.352-.2.752-.2"/>
+  <rect width=".13" height="3.241" x="-.065" y="-.5" fill="currentColor" ry=".04" transform="translate(51.726 15.9)"/>
 </svg>

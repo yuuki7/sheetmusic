@@ -1,33 +1,37 @@
 \version "2.24.4"
 
-\paper {
-  indent = #0
-  line-width = #120
-}
-
 \header {
   title = "Row, Row, Row Your Boat"
 }
 
 \score {
   <<
-  \chords {
-    c,2.*4 |
-    c,2.*2 | g,2. | c,2.
-  }
-  \relative c' {
-    \time 6/8
-    c4. c4. | c4 d8 e4. | e4 d8 e4 f8 | g2. | \break
-    c8[ c8 c8] g8[ g8 g8] | e8[ e8 e8] c8[ c8 c8] | g'4 f8 e4 d8 | c2. \fine
-  }
+    \chords {
+      c,1 * 3 | |
+
+      | g,2 c,2
+    }
+
+    \fixed c' {
+      \numericTimeSignature
+      \time 4/4
+
+      c4 c4 c8.[ d16] e4 | e8.[ d16] e8.[ f16] g2 | \break
+
+      \tuplet 3/2 { c'8[ c'8 c'8] } \tuplet 3/2 { g8[ g8 g8] }
+      \tuplet 3/2 { e8[ e8 e8] } \tuplet 3/2 { c8[ c8 c8] }
+      | g8.[ f16] e8.[ d16] c2 \bar "|."
+    }
   >>
 
-  \layout {
-    \autoBreaksOff
-    \numericTimeSignature
-  }
+  \layout {}
 
   \midi {
-    \tempo 4. = 120
+    \tempo 4 = 120
   }
+}
+
+\paper {
+  paper-width = 120\mm
+  indent = 0
 }
