@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@xmldom/xmldom": "^0.8.11",
+    "svgo": "^4.0.0"
+  }
+}

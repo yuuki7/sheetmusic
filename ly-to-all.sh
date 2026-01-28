@@ -14,14 +14,20 @@ for ly_file in ${1:-*}/*.ly; do
   file="${ly_file%.ly}"
 
   # Convert LilyPond to SVG and MIDI
-  lilypond --loglevel=WARNING --svg -dcrop -dmidi-extension=mid \
+  lilypond --loglevel=WARNING \
+    --svg -dcrop -dno-point-and-click -dmidi-extension=mid \
     --output="$file" "$file.ly"
 
   mv "$file.cropped.svg" "$file.svg"
 
+  # Optimize SVG
+  npx svgo --quiet "$file.svg"
+
   # Set SVG background to white
-  rsvg-convert --background-color=white --format=svg \
-    --output="$file.svg" "$file.svg"
+  ./svg-bg.js "$file.svg"
+
+  # Format SVG
+  xmllint --format --encode UTF-8 --output "$file.svg" "$file.svg"
 
   # Convert MIDI to WAV
   fluidsynth --quiet --fast-render="$file.wav" "$SOUNDFONT" "$file.mid"
