@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Convert all LilyPond files to SVG, WebP, MIDI, WAV, and WebM
+# Convert all LilyPond files to SVG, WebP, MIDI, WAV, Opus, and WebM
 #
 
 # Exit on error
@@ -36,9 +36,12 @@ for ly_file in ${1:-*}/*.ly; do
   # Convert MIDI to WAV
   fluidsynth --quiet --fast-render="$file.wav" "$SOUNDFONT" "$file.mid"
 
-  # Convert WAV to WebM
+  # Convert WAV to Opus
+  ffmpeg -y -loglevel error -i "$file.wav" -codec:a libopus "$file.opus"
+
+  # Convert Opus to WebM
   ffmpeg -y -loglevel error \
-    -f lavfi -i 'color=color=black:size=320x180' -i "$file.wav" \
+    -f lavfi -i 'color=color=black:size=256x144' -i "$file.opus" \
     -codec:v libvpx-vp9 -codec:a libopus \
     -filter:a 'silenceremove=stop_periods=1:stop_threshold=-50dB' \
     -shortest -pix_fmt yuv420p "$file.webm"
