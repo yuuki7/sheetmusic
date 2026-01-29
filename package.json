@@ -2,6 +2,7 @@
   "private": true,
   "type": "module",
   "dependencies": {
+    "@tonejs/midi": "2.0.28",
     "@xmldom/xmldom": "^0.8.11",
     "svgo": "^4.0.0"
   }
