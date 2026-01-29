@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Convert all LilyPond files to SVG, MIDI, WAV, and WebM
+# Convert all LilyPond files to SVG, WebP, MIDI, WAV, and WebM
 #
 
 # Exit on error
@@ -22,6 +22,10 @@ for ly_file in ${1:-*}/*.ly; do
 
   # Optimize SVG
   npx svgo --quiet "$file.svg"
+
+  # Convert SVG to WebP with white background
+  rsvg-convert --width=2160 --background-color=white \
+    --output="$file.webp" "$file.svg"
 
   # Set SVG background to white
   ./svg-bg.js "$file.svg"
