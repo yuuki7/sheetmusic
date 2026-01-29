@@ -1,6 +1,9 @@
-# yuuki's sheet music
+# Sheet music
 
-https://wikinder.org/Music-notation-on-computers
+[![jsDelivr](https://data.jsdelivr.com/v1/package/gh/yuuki7/sheetmusic/badge?style=rounded)](https://cdn.jsdelivr.net/gh/yuuki7/sheetmusic/)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/yuuki7/sheetmusic)
+
+https://wikinder.org/LilyPond-sheet-music
 
 ## License
 
