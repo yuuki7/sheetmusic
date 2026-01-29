@@ -35,5 +35,16 @@
 
 \paper {
   paper-width = 120\mm
+
+  top-margin = 0
+  bottom-margin = 0.1\mm
+  left-margin = 1.6\mm
+  right-margin = 0.1\mm
+
   indent = 0
+  tagline = ##f
+  page-breaking = #ly:one-page-breaking
+
+  last-bottom-spacing.padding = -3.5\mm
+  % annotate-spacing = ##t
 }

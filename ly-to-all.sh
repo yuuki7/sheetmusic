@@ -14,11 +14,9 @@ for ly_file in ${1:-*}/*.ly; do
   file="${ly_file%.ly}"
 
   # Convert LilyPond to SVG and MIDI
-  lilypond --loglevel=WARNING \
-    --svg -dcrop -dno-point-and-click -dmidi-extension=mid \
+  lilypond --loglevel=WARNING -dwarning-as-error \
+    --svg -dno-point-and-click -dmidi-extension=mid \
     --output="$file" "$file.ly"
-
-  mv "$file.cropped.svg" "$file.svg"
 
   # Optimize SVG
   npx svgo --quiet "$file.svg"
